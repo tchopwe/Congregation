@@ -10878,7 +10878,13 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #212529 !important;
+  transition: none !important; /* désactive les transitions */
+  width: 100%;
+  box-sizing: border-box;
+}
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
